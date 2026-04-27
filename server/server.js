@@ -14,8 +14,10 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server);
 
+// I run this locally so defaulting to 3001 works fine, but changed HOST to
+// localhost so it's not accidentally exposed on my home network
 const PORT = process.env.PORT || 3001;
-const HOST = process.env.HOST || "0.0.0.0";
+const HOST = process.env.HOST || "127.0.0.1";
 const DATA_DIR = process.env.DATA_DIR || "./data";
 
 // Ensure data directory exists
