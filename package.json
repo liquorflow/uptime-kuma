@@ -45,7 +45,7 @@
     "vite": "^4.4.9"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=16.0.0"
   },
   "keywords": [
     "uptime",
