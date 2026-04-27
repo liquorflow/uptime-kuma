@@ -56,5 +56,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/louislam/uptime-kuma.git"
-  }
+  },
+  "_personal_notes": "my personal fork for home server use - running on a raspberry pi 4"
 }
